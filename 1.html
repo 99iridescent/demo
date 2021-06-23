@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .qq{
+        font-size: 50px;
+        /* background-color: red; */
+    }
+</style>
+<body>
+    <div  id='main'></div>
+</body>
+<!-- <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script> -->
+<script>
+    let str = '邱能能狗儿'
+    for(let i=0;i<str.length;i++){
+        let a = `<span>${str[i]}</span>`
+        document.getElementById('main').innerHTML =  document.getElementById('main').innerHTML + a
+    }
+    var oUl = document.getElementById('main');  
+    var lists = document.getElementById('main').getElementsByTagName('span')
+    oUl.onmouseover = function(ev){ 
+        // console.log(ev)
+        var oLi = ev.srcElement || ev.target;
+        for(let i = 0;i<lists.length;i++){
+            lists[i].classList.remove('qq')
+        }
+        if(ev.target!= this){
+            oLi.classList.add('qq')
+        }
+    }
+</script>
+</html>
