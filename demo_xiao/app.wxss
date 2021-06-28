@@ -1,0 +1,6 @@
+view {
+  background: yellow;
+}
+text {
+  display: block;
+}

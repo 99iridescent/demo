@@ -1,0 +1,3 @@
+<view>apply-shared: 这段文本有底色</view>
+<text class="red">而且这行字是蓝的</text>
+<text class="blue">而且这行字是蓝的</text>

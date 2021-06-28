@@ -1,0 +1,3 @@
+<view>isolated: 这段文本有底色</view>
+<text class="red">但这行字不是红的</text>
+<text class="blue">而且这行字不是蓝的</text>

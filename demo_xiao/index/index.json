@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "isolated": "./isolated",
+    "apply-shared": "./apply-shared",
+    "shared": "./shared"
+  }
+}

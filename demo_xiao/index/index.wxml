@@ -1,0 +1,9 @@
+<navigator url="page-isolated">
+  <button>下一页</button>
+</navigator>
+<view>这段文本有底色</view>
+<text class="red">而且这行字是红的</text>
+<text class="blue">但这行字不是蓝的</text>
+<isolated />
+<apply-shared />
+<shared />
