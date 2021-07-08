@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id='file' onchange="changeFile()" type="file">
+    <iframe src="https://cn.sudokupuzzle.org/online.php" frameborder="0" width="425" scrolling="no"style="height:485px !important;height:475px;" ></iframe>
+</body>
+<script>    
+    function changeFile() { 
+        let files = document.getElementById('file')
+        console.log(files)
+        console.log(files.files)
+    }
+</script>
+</html>
